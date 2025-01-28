@@ -1,6 +1,13 @@
+name: My Assignment Week 2 GA Weekly
+
+on:
+  push:
+    branches:
+      - main
 
 jobs:
   test:
+    runs-on: ubuntu-latest
     steps:
       - name: 23ds3000149@ds.study.iitm.ac.in
         run: echo "Hello, world!"
